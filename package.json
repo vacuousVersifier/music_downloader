@@ -1,0 +1,22 @@
+{
+  "name": "music_downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vacuousVersifer/music_downloader.git"
+  },
+  "author": "vacuousVersifer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vacuousVersifer/music_downloader/issues"
+  },
+  "homepage": "https://github.com/vacuousVersifer/music_downloader#readme",
+  "devDependencies": {
+    "electron": "^23.0.0"
+  }
+}
