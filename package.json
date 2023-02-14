@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "lint": "node node_modules/eslint/bin/eslint.js ./ --fix"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/vacuousVersifer/music_downloader#readme",
   "devDependencies": {
-    "electron": "^23.0.0"
+    "electron": "^23.0.0",
+    "eslint": "^8.34.0"
   }
 }
