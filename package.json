@@ -1,13 +1,14 @@
 {
   "name": "music_downloader",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A simple music downloader",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
     "lint": "node node_modules/eslint/bin/eslint.js ./ --fix",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "@electron-forge/maker-rpm": "^6.0.5",
     "@electron-forge/maker-squirrel": "^6.0.5",
     "@electron-forge/maker-zip": "^6.0.5",
+    "@electron-forge/publisher-github": "^6.0.5",
     "electron": "^23.0.0",
     "eslint": "^8.34.0"
   },
