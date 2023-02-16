@@ -1,11 +1,11 @@
 {
   "name": "music_downloader",
-  "version": "0.1.1-0",
+  "version": "0.1.1-beta",
   "description": "A simple music downloader",
   "main": "main.js",
   "scripts": {
-    "start": "electron-forge start",
     "lint": "node node_modules/eslint/bin/eslint.js ./ --fix",
+    "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish"
@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
+    "jquery": "^3.6.3",
     "update-electron-app": "^2.0.1"
   }
 }

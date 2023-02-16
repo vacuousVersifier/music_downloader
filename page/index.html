@@ -10,12 +10,20 @@
       http-equiv="X-Content-Security-Policy"
       content="default-src 'self'; script-src 'self'"
     />
-    <title>Hello from Electron renderer!</title>
+    <title>Music Downloader</title>
   </head>
-  <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
-    <p id="info"></p>
-  </body>
+	<body>
+		<h1>Music Downloader</h1>
+		<p>A tool to download .mp3 formatted songs from youtube videos or playlists</p>
+		<form id="link_form">
+		    <label for="link_input">Please enter a youtube playlist or song link:</label>
+		    <input id="link_input" placeholder="https://www.youtube.com/watch?v=3BR7-AzE2dQ&list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc"/>
+        <p id="response"></p>
+		</form>
+    <ul id="progress_list">
+      <li>Waiting for a link</li>
+    </ul>
+	</body>
+  <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
   <script src="./renderer.js"></script>
 </html>
