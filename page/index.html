@@ -11,18 +11,45 @@
       content="default-src 'self'; script-src 'self'"
     />
     <title>Music Downloader</title>
+
+    <link rel="stylesheet" href="style.css">
   </head>
 	<body>
-		<h1>Music Downloader</h1>
-		<p>A tool to download .mp3 formatted songs from youtube videos or playlists</p>
-		<form id="link_form">
-		    <label for="link_input">Please enter a youtube playlist or song link:</label>
-		    <input id="link_input" placeholder="https://www.youtube.com/watch?v=3BR7-AzE2dQ&list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc"/>
-        <p id="response"></p>
-		</form>
+
+  <!-- Header -->
+  <div class="header row section">
+      <h1>Music Downloader</h1>
+      <!-- Blurb -->
+      <p>A tool to download .mp3 formatted songs from youtube videos or playlists</p>
+  </div> 
+
+  <div class="body row scroll-y section">
+    <!-- Form -->
+    <form id="link_form">
+        <p id="response">Please enter a youtube playlist or song link:</p>
+        <input id="link_input" placeholder="https://www.youtube.com/"/>
+    </form>
+  </div> 
+
+  <!-- Queue -->
+  <div class="footer row scroll-y section">
     <ul id="progress_list">
       <li>Waiting for a link</li>
+      <li>Waiting for a link</li>
+      <li>Waiting for a link</li>
+      <li>Waiting for a link</li>
+      <li>Waiting for a link</li>
+      <li>Waiting for a link</li>
+      <li>Waiting for a link</li>
+      <li>Waiting for a link</li>
+      <li>Waiting for a link</li>
+      <li>Waiting for a link</li>
+      <li>Waiting for a link</li>
+      <li>Waiting for a link</li>
     </ul>
+  </div>
+
+
 	</body>
   <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
   <script src="./renderer.js"></script>

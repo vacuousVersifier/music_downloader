@@ -1,0 +1,43 @@
+body {
+  background-color:#FFE0DC;
+  font-family:Verdana,sans-serif;
+  width:100%
+  }
+  
+h1,p,form {
+  text-align:center
+}
+  
+input {
+  width:90%
+}
+
+ul {
+  text-align: center;
+  list-style: inside;
+  padding:0px;
+}
+
+li {
+  list-style-type: none;
+  border: 2px solid #999;
+  margin: 5px;
+  padding: 3px;
+}
+  
+.section {
+  background:#FFF2F0;
+  border:2px solid #CCC;
+  border-radius:15px;
+  margin:10px;
+  padding: 10px;
+}
+  
+.row,.col { overflow:hidden; position:absolute }
+.row { left:0; right:0 }
+.col { bottom:0; top:0 }
+.scroll-x { overflow-x:auto }
+.scroll-y { overflow-y:auto }
+.header.row { bottom:70vh; top:0 }
+.body.row { bottom:50vh; top:28vh }
+.footer.row { bottom:1vh; top:48vh }
