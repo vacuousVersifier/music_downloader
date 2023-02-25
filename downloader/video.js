@@ -1,5 +1,4 @@
 const yt = require("yt-converter");
-const path = require("path");
 
 module.exports = {
   download,

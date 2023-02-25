@@ -109,7 +109,6 @@ $(() => {
           let video = processedVideos[i];
           let videoTitle = video.title;
           let videoLink = video.link;
-          let videoID = video.id;
           let videoTask = video.task;
   
           videoTask.changeTitle(`Downloading Song (${videos[i].title})`);
